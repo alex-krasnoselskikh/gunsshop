@@ -1,0 +1,27 @@
+{
+  "11111": {
+    "name": "Remington 870",
+    "price": 200,
+    "description": "Pump action shotgun, 12 gauge",
+    "image": "img/goods/rem870.jgp" 
+  },
+  "11112": {
+    "name": "Mossberg 500",
+    "price": 190,
+    "description": "Pump action shotgun, 12 gauge",
+    "image": "img/goods/mossberg500.jgp" 
+  },
+  "11113": {
+    "name": "Browning auto 5",
+    "price": 300,
+    "description": "Self-loading shotgun, 12 gauge",
+    "image": "img/goods/browning-a5.jgp" 
+  },
+  "11114": {
+    "name": "Winchester 1897",
+    "price": 500,
+    "description": "Pump action shotgun, 12 gauge",
+    "image": "img/goods/win1897.jgp" 
+  }
+
+}

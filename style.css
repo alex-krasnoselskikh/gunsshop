@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+
+div {
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+body {
+  background-color: lightskyblue;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.menu-top {
+  background-color: orange;
+  display: inline-block;
+  width: 100vw;
+  padding: 0.2em;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#city-selection {
+  color: #414042;
+  float: left;
+  position: relative;
+  margin: 0.5em;
+  padding-left: 1em;
+  border-bottom: 1px dotted #414042;
+  background-image: url("img/pointer-logo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1em;
+  font-size: 1rem;
+}
+
+#links-top {
+  float: right;
+}
+
+.menu-top a {
+  color: red;
+  text-decoration: underline;
+  display: block;
+  float: left;
+  margin: 0.5em;
+}
+
+.scrolling-menu {
+  background-color: yellow;
+  display: inline-flex;
+  width: 100vw;
+  min-height: 5vh;
+  margin: 0;
+}
+
+.buttons {
+  float: none;
+  min-width: 5em;
+  max-width: 18em;
+  margin: auto;
+  display: inline-block;
+  min-height: 2em;
+}
+
+.buttons a {
+  background-color: red;
+  background-size: 2em;
+  padding: 0.4em;
+  text-decoration: none;
+  min-width: 6em;
+  text-align: center;
+  float: left;
+  display: block;
+  }
+
+#logo-container {
+  float: left;
+  background-size: contain;
+  background-image: url("img/shotgun_cross.png");
+  min-height: 6rem;
+  min-width: 6rem;
+  background-color: palevioletred;
+  background-repeat: no-repeat;
+  clear: both;
+}
+
+/*#logo-container img {
+  height: 7em;
+  width: 7em;
+  background-color: palevioletred;
+}*/
+
+#wishlist {
+  background-image: url("img/wishlist.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1em;
+  margin: 0.5em;
+  padding-left: 1em;
+}
+
+#cart {
+  background-image: url("img/cart.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1em;
+  margin: 0.5em;
+  padding-left: 1em;
+}
+
+.searchbar {
+  background-color: lightsteelblue;
+  /*width: 70%;*/
+  min-width: 60%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  padding-left: 1%;
+  display: inline;
+}
+
+.search-form {
+  width: 100%;
+  display: block;
+  min-height: 3em;
+  padding: 1em;
+  padding-left: 1%;
+}
+
+
+.searchbar input[type=text] {
+  background-color: #88992A;
+  min-width: 80%;
+  min-height: 80%;
+  padding: 0.5em 1em;
+  font-size: 1em;
+}
+
+.searchbar input[type=submit] {
+  background-image: url("img/search-logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 2.4rem;
+  width: 2.4rem;
+  font-size: 1em;
+}
+
+.flex-container {
+  display: inline-flex;
+  width: 100%;
+}
+
+.vertical-left-panel {
+  background-color: brown;
+  color: white;
+  min-height: 9em;
+  min-width: 15em;
+  display: inline-block;
+  text-align: left;
+}
+
+.vertical-left-panel ul {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-left-panel li {
+  border: 1px solid white;
+  padding: 1em;
+  
+}
+
+.vertical-left-panel a, li {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  
+}
+
+.slideshow{
+  display: block;
+  width: 40em;
+  height: 17em;
+  min-width: 30em;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1em;
+
+}
+
+.slide {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: none;
+}
+
